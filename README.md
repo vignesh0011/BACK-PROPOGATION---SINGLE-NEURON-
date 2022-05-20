@@ -1,3 +1,5 @@
+## EX NO : 04
+### DATE  : 11.04.2022
 # BACK-PROPOGATION---SINGLE-NEURON-
 ## Aim:
 To write a python program to implement the multi class classification algorithm .
