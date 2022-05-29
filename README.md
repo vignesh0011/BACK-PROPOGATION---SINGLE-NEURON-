@@ -1,14 +1,17 @@
-## EX NO : 04
-### DATE  : 11.04.2022
-# BACK-PROPOGATION---SINGLE-NEURON-
-## Aim:
-To write a python program to implement the multi class classification algorithm .
+### EX NO:04
+### DATE: 11.04.2022
+# <p align="center">BACK PROPOGATION SINGLE NEURON <p/>
+## AIM:
 
-## Equipments Required:
+To write a python program to perform Back Propagation with Single Neuron.
+
+## EQUIPMENTS REQUIRED:
+
 1. Hardware – PCs
-2. Anaconda – Python 3.7 Installation / Moodle-Code Runner / Google Colab
+2. Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 
-## Related Theoritical Concept:
+## RELATED THEORITICAL CONCEPT:
+
 ### Training Dataset:
 Training data is an extremely large dataset that is used to teach a machine learning model. Training data is used to teach prediction models that use machine learning algorithms how to extract features that are relevant to specific business goals. For supervised ML models, the training data is labeled. The data used to train unsupervised ML models is not labeled. Training data is also known as a training set, training dataset or learning set.
 
@@ -18,21 +21,29 @@ Test data is data which has been specifically identified for use in tests, typic
 ### Backward propagation:
 Backpropagation (backward propagation) is an important mathematical tool for improving the accuracy of predictions in data mining and machine learning. Essentially, backpropagation is an algorithm used to calculate derivatives quickly.
 
-## Algorithm
-1.Inputs X, arrive through the preconnected path.
-2.Input is modeled using real weights W. The weights are usually randomly selected.
-3.Calculate the output for every neuron from the input layer, to the hidden layers, to the output layer.
-4.Calculate the error in the outputs
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
-## Program:
+
+
+## Algorithm:
+1. Inputs X, arrive through the preconnected path.
+2. Input is modeled using real weights W. The weights are usually randomly selected.
+3. Calculate the output for every neuron from the input layer, to the hidden layers, to the output layer.
+4. Calculate the error in the outputs.
+5. Travel back from the output layer to the hidden layer to adjust the weights such that the error is decreased. 
+<br/><br/>Keep repeating the process until the desired output is achieved.
+
+## PROGRAM:
 ```
-/*
-Program to implement random classification.
-Developed by: M VIGNESH
-RegisterNumber:  212220233002
-*/
+#Program to implement random classification.
+#Developed by   : M VIGNESH
+#Register Number :  212220233002
 ```
-~~~
+```python
 import numpy as np
 i=1.5    
 w_o=0.8  
@@ -53,11 +64,21 @@ for j in range(0,100):
 print(a)
 print(" ")
 print(w)
-~~~
+```
 
-## Output:
-![multi class classification plot](exp7.png)
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br>
+<br>
 
 
-## Result:
+## OUTPUT:
+
+<img width="766" alt="output" src="https://user-images.githubusercontent.com/75234991/164034556-ebeff13b-a07b-4277-82ab-39cfcd05244e.png">
+
+## RESULT:
+
 Thus the Back Propagation with Single Neuron was successfully implemented using python programming.
